@@ -17,5 +17,8 @@
 				</li>
 			@endforeach
 		</ul>
+		<div id="pagination">
+			{{ $comics->links() }}
+		</div>
 	</section>
 @endsection

@@ -4,6 +4,9 @@
 
 @section('content')
 	<section id="add-form">
+		<a href="{{ route('comics.index') }}">
+			<button>Back</button>
+		</a>
 		<form action="{{ route('comics.store') }}" method="post">
 			@csrf
 
