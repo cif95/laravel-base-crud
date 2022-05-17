@@ -5,5 +5,6 @@
 @section('content')
 	<section id="comic-detail">
 		<h1>Comic detail</h1>
+		@dump($comic)
 	</section>
 @endsection
