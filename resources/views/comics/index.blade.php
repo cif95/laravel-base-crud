@@ -3,7 +3,7 @@
 @section('title', 'Comics')
 
 @section('content')
-	<section id="comics" class="container-fluid px-5">
+	<section id="comics" class="container-fluid px-5 my-4">
 		<div class="row">
 			<div class="col-12 m-3">
 				<a href="{{ route('comics.create')}}" class="btn btn-secondary" tabindex="-1" role="button" aria-disabled="true">Add New Comic</a>
