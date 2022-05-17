@@ -1,3 +1,9 @@
-<header class="px-5 py-3 ms-3">
-	<h6>Comics</h6>
+<header>
+	<div class="container-fluid px-5">
+		<div class="row">
+			<div class="col-12 py-3">
+				<h2 class="text-uppercase">Comics</h1>
+			</div>
+		</div>
+	</div>
 </header>

@@ -1,4 +1,4 @@
-@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap);@charset "UTF-8";
 /*!
  * Bootstrap v5.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -11243,20 +11243,48 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+body {
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+}
+
 a {
   color: inherit;
   text-decoration: none;
 }
 
-div.card {
-  height: 650px;
+h1, .h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  color: #003F5E;
 }
-div.card img {
-  height: 70%;
-  -o-object-position: center;
-     object-position: center;
-  -o-object-fit: cover;
-     object-fit: cover;
+
+.btn-brand {
+  font-size: 0.85rem;
+  color: white;
+  text-transform: uppercase;
+  background-color: #107eec;
+}
+
+header {
+  border-bottom: 1px solid rgb(212, 212, 212);
+}
+header h2, header .h2 {
+  font-weight: 700;
+  color: #107eec;
+}
+
+div.card {
+  border-radius: 10px;
+  border: none;
 }
 
 div#pagination nav {
@@ -11264,4 +11292,12 @@ div#pagination nav {
   width: -moz-fit-content;
   width: fit-content;
   margin: 0 auto;
+}
+
+section#add-form {
+  background-color: rgb(255, 247, 238);
+}
+section#add-form label {
+  font-weight: 500;
+  color: #003F5E;
 }

@@ -1,23 +1,58 @@
 @import '~bootstrap/scss/bootstrap';
+@import 'partials/variables';
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
+
+body {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+}
 
 a {
 	color: inherit;
 	text-decoration: none;
 }
 
-div.card {
-	height: 650px;
-	img {
-		height: 70%;
-		object-position: center;
-		object-fit: cover;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: $blueHeadings;
+}
+
+.btn-brand {
+	font-size: 0.85rem;
+	color: white;
+	text-transform: uppercase;
+	background-color: $brandColor;
+}
+
+header {
+	border-bottom: 1px solid rgb(212, 212, 212);
+	h2 {
+		font-weight: 700;
+		color: $brandColor;
 	}
+}
+
+div.card {
+	border-radius: 10px;
+	border: none;
 }
 
 div#pagination{
 	nav {
 		width: fit-content;
 		margin: 0 auto;
+	}
+}
+
+section#add-form {
+	background-color: rgb(255, 247, 238);
+	label {
+		font-weight: 400;
+		color: $blueHeadings;
 	}
 }
