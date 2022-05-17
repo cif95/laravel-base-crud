@@ -11249,7 +11249,14 @@ a {
 }
 
 div.card {
-  height: 550px;
+  height: 650px;
+}
+div.card img {
+  height: 70%;
+  -o-object-position: center;
+     object-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 div#pagination nav {

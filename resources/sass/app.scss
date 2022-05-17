@@ -7,7 +7,12 @@ a {
 }
 
 div.card {
-	height: 550px;
+	height: 650px;
+	img {
+		height: 70%;
+		object-position: center;
+		object-fit: cover;
+	}
 }
 
 div#pagination{
