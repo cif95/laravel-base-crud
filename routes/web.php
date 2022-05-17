@@ -13,10 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::prefix('comics')->name('comics')->group(function () {
-    Route::get('', 'ComicsController@index');
-    Route::get('/{id}', 'ComicsController@show')->name('/detail');
-});
+// Route::prefix('comics')->name('comics')->group(function () {
+//     Route::get('', 'ComicsController@index');
+//     Route::get('/{id}', 'ComicsController@show')->name('/detail');
+//     Route::get('/create', 'ComicsController@create')->name('/detail');
+// });
 
 
-// Route::resource('Comics', 'ComicsController');
+Route::resource('comics', 'ComicsController');
