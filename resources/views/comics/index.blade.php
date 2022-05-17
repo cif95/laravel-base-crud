@@ -11,9 +11,9 @@
 			@foreach ($comics as $comic)
 				<div class="col-2">
 					<a href="{{ route('comics.show', $comic->id ) }}">
-						<div class="card mb-4 p-2">
+						<div class="card mb-2 p-3">
 							<img src="{{ $comic->thumb }}" class="card-img-top" alt="Poster of{{ $comic->title }}">
-							<div class="card-body">
+							<div class="card-body pt-2 p-0">
 								<h5 class="card-title">{{ $comic->title }}</h5>
 							</div>
 						</div>

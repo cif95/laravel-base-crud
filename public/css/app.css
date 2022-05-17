@@ -11246,25 +11246,38 @@ textarea.form-control-lg {
 body {
   font-family: "Oswald", sans-serif;
   font-weight: 300;
+  overflow: hidden;
 }
-
-a {
+body a {
   color: inherit;
   text-decoration: none;
 }
-
-h1, .h1,
-h2,
-.h2,
-h3,
-.h3,
-h4,
-.h4,
-h5,
-.h5,
-h6,
-.h6 {
+body p,
+body span {
+  color: rgb(60, 60, 60);
+}
+body h1, body .h1,
+body h2,
+body .h2,
+body h3,
+body .h3,
+body h4,
+body .h4,
+body h5,
+body .h5,
+body h6,
+body .h6 {
   color: #003F5E;
+}
+body header {
+  border-bottom: 1px solid rgb(212, 212, 212);
+}
+body header h2, body header .h2 {
+  font-weight: 700;
+  color: #107eec;
+}
+body section {
+  height: calc(100vh - 78px);
 }
 
 .btn-brand {
@@ -11272,14 +11285,6 @@ h6,
   color: white;
   text-transform: uppercase;
   background-color: #107eec;
-}
-
-header {
-  border-bottom: 1px solid rgb(212, 212, 212);
-}
-header h2, header .h2 {
-  font-weight: 700;
-  color: #107eec;
 }
 
 div.card {
@@ -11294,8 +11299,12 @@ div#pagination nav {
   margin: 0 auto;
 }
 
+section#comic-detail div.row div#comic-info span {
+  font-size: 0.88rem;
+}
+
 section#add-form {
-  background-color: rgb(255, 247, 238);
+  background-color: rgb(253, 242, 239);
 }
 section#add-form label {
   font-weight: 400;
