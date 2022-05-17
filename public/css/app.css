@@ -11251,3 +11251,10 @@ a {
 div.card {
   height: 550px;
 }
+
+div#pagination nav {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+}

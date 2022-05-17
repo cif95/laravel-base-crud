@@ -21,7 +21,7 @@
 					</a>
 				</div>
 			@endforeach
-			<div id="pagination" class="col-12 text-center">
+			<div id="pagination" class="col-12">
 				{{ $comics->links() }}
 			</div>
 		</div>
